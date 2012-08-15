@@ -1,4 +1,0 @@
-print "hello"
-x = 6 + 1
-y = x + 1
-print y
