@@ -23,7 +23,8 @@ def isprime(n):
 
 	# range starts with 3 and skips even numbers
 	# only must go up to the square root of n
-	for divisor in range(3, int(math.sqrt(n)), 2):
+	endval = int(math.sqrt(n))+1
+	for divisor in range(3, endval, 2):
 		if n % divisor == 0:
 			return False
 	return True
